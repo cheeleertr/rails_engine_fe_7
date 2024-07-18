@@ -1,0 +1,199 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.10.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"8007ba8e38143e429bbcf993d1b3e1d2"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 0ef42b24-3926-4dbd-a77f-96e1da9a2684
+      X-Runtime:
+      - '0.006519'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.00, sql.active_record;dur=0.51, instantiation.active_record;dur=1.39,
+        process_action.action_controller;dur=3.19
+      Content-Length:
+      - '6112'
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":1,"attributes":{"id":1,"name":"Schroeder-Jerde"}},{"id":2,"attributes":{"id":2,"name":"Klein,
+        Rempel and Jones"}},{"id":3,"attributes":{"id":3,"name":"Willms and Sons"}},{"id":4,"attributes":{"id":4,"name":"Cummings-Thiel"}},{"id":5,"attributes":{"id":5,"name":"Williamson
+        Group"}},{"id":6,"attributes":{"id":6,"name":"Williamson Group"}},{"id":7,"attributes":{"id":7,"name":"Bernhard-Johns"}},{"id":8,"attributes":{"id":8,"name":"Osinski,
+        Pollich and Koelpin"}},{"id":9,"attributes":{"id":9,"name":"Hand-Spencer"}},{"id":10,"attributes":{"id":10,"name":"Bechtelar,
+        Jones and Stokes"}},{"id":11,"attributes":{"id":11,"name":"Pollich and Sons"}},{"id":12,"attributes":{"id":12,"name":"Kozey
+        Group"}},{"id":13,"attributes":{"id":13,"name":"Tillman Group"}},{"id":14,"attributes":{"id":14,"name":"Dicki-Bednar"}},{"id":15,"attributes":{"id":15,"name":"Adams-Kovacek"}},{"id":16,"attributes":{"id":16,"name":"Bosco,
+        Howe and Davis"}},{"id":17,"attributes":{"id":17,"name":"Ullrich-Moen"}},{"id":18,"attributes":{"id":18,"name":"Koepp
+        LLC"}},{"id":19,"attributes":{"id":19,"name":"Brown Inc"}},{"id":20,"attributes":{"id":20,"name":"Schulist,
+        Wilkinson and Leannon"}},{"id":21,"attributes":{"id":21,"name":"Leffler, Rice
+        and Leuschke"}},{"id":22,"attributes":{"id":22,"name":"Thiel Inc"}},{"id":23,"attributes":{"id":23,"name":"Kilback
+        Inc"}},{"id":24,"attributes":{"id":24,"name":"Ferry and Sons"}},{"id":25,"attributes":{"id":25,"name":"Hickle-Hessel"}},{"id":26,"attributes":{"id":26,"name":"Balistreri,
+        Schaefer and Kshlerin"}},{"id":27,"attributes":{"id":27,"name":"Shields, Hirthe
+        and Smith"}},{"id":28,"attributes":{"id":28,"name":"Schiller, Barrows and
+        Parker"}},{"id":29,"attributes":{"id":29,"name":"Tromp Inc"}},{"id":30,"attributes":{"id":30,"name":"Ernser,
+        Borer and Marks"}},{"id":31,"attributes":{"id":31,"name":"Maggio LLC"}},{"id":32,"attributes":{"id":32,"name":"Rowe
+        and Sons"}},{"id":33,"attributes":{"id":33,"name":"Quitzon and Sons"}},{"id":34,"attributes":{"id":34,"name":"Rutherford,
+        Bogan and Leannon"}},{"id":35,"attributes":{"id":35,"name":"Schuster Group"}},{"id":36,"attributes":{"id":36,"name":"Bernhard,
+        Stanton and Funk"}},{"id":37,"attributes":{"id":37,"name":"Dibbert Group"}},{"id":38,"attributes":{"id":38,"name":"Johnston,
+        Gleason and O''Keefe"}},{"id":39,"attributes":{"id":39,"name":"Schuppe, Friesen
+        and Schmeler"}},{"id":40,"attributes":{"id":40,"name":"Wilderman Group"}},{"id":41,"attributes":{"id":41,"name":"Crona
+        LLC"}},{"id":43,"attributes":{"id":43,"name":"Marks, Shanahan and Bauch"}},{"id":44,"attributes":{"id":44,"name":"Gibson
+        Group"}},{"id":45,"attributes":{"id":45,"name":"Dickinson-Klein"}},{"id":46,"attributes":{"id":46,"name":"Huels,
+        Homenick and Smith"}},{"id":47,"attributes":{"id":47,"name":"Franecki-Ullrich"}},{"id":48,"attributes":{"id":48,"name":"Hand,
+        Boyer and Mitchell"}},{"id":49,"attributes":{"id":49,"name":"Marvin, Renner
+        and Bauch"}},{"id":50,"attributes":{"id":50,"name":"Nader-Hyatt"}},{"id":51,"attributes":{"id":51,"name":"Paucek
+        Inc"}},{"id":52,"attributes":{"id":52,"name":"Reynolds Inc"}},{"id":53,"attributes":{"id":53,"name":"Rath,
+        Gleason and Spencer"}},{"id":54,"attributes":{"id":54,"name":"Zemlak-Collins"}},{"id":55,"attributes":{"id":55,"name":"Koch,
+        Wolf and Jerde"}},{"id":56,"attributes":{"id":56,"name":"Sporer, Christiansen
+        and Connelly"}},{"id":57,"attributes":{"id":57,"name":"Parisian Group"}},{"id":58,"attributes":{"id":58,"name":"Rogahn
+        LLC"}},{"id":59,"attributes":{"id":59,"name":"Pollich, Romaguera and Bayer"}},{"id":60,"attributes":{"id":60,"name":"Smitham
+        LLC"}},{"id":61,"attributes":{"id":61,"name":"Auer, Crooks and Shanahan"}},{"id":62,"attributes":{"id":62,"name":"Kunze,
+        Kautzer and Little"}},{"id":63,"attributes":{"id":63,"name":"Lehner, Padberg
+        and O''Hara"}},{"id":64,"attributes":{"id":64,"name":"Koepp, Waelchi and Donnelly"}},{"id":65,"attributes":{"id":65,"name":"Hermann,
+        Weimann and Botsford"}},{"id":66,"attributes":{"id":66,"name":"Bechtelar LLC"}},{"id":67,"attributes":{"id":67,"name":"Torp
+        and Sons"}},{"id":68,"attributes":{"id":68,"name":"Heaney Group"}},{"id":69,"attributes":{"id":69,"name":"Watsica-Parisian"}},{"id":70,"attributes":{"id":70,"name":"Weimann-Schimmel"}},{"id":71,"attributes":{"id":71,"name":"Schulist
+        Group"}},{"id":72,"attributes":{"id":72,"name":"Greenfelder-Keebler"}},{"id":73,"attributes":{"id":73,"name":"Sipes
+        LLC"}},{"id":74,"attributes":{"id":74,"name":"Daugherty Group"}},{"id":75,"attributes":{"id":75,"name":"Eichmann-Turcotte"}},{"id":76,"attributes":{"id":76,"name":"Kirlin,
+        Jakubowski and Smitham"}},{"id":77,"attributes":{"id":77,"name":"Kutch, Blick
+        and O''Keefe"}},{"id":78,"attributes":{"id":78,"name":"Heathcote-Hettinger"}},{"id":79,"attributes":{"id":79,"name":"Pacocha-Mayer"}},{"id":80,"attributes":{"id":80,"name":"Jakubowski,
+        Predovic and Hudson"}},{"id":81,"attributes":{"id":81,"name":"Jewess Group"}},{"id":82,"attributes":{"id":82,"name":"Kulas
+        LLC"}},{"id":83,"attributes":{"id":83,"name":"Gulgowski, Torphy and Lynch"}},{"id":84,"attributes":{"id":84,"name":"Terry-Moore"}},{"id":85,"attributes":{"id":85,"name":"Sauer
+        and Sons"}},{"id":86,"attributes":{"id":86,"name":"Marvin Group"}},{"id":87,"attributes":{"id":87,"name":"Johnson-Wiza"}},{"id":88,"attributes":{"id":88,"name":"Kiehn
+        Group"}},{"id":89,"attributes":{"id":89,"name":"Kassulke, O''Hara and Quitzon"}},{"id":90,"attributes":{"id":90,"name":"Friesen,
+        Hackett and Runte"}},{"id":91,"attributes":{"id":91,"name":"Weissnat, Hermiston
+        and Beer"}},{"id":92,"attributes":{"id":92,"name":"Zemlak, Volkman and Haley"}},{"id":93,"attributes":{"id":93,"name":"Walter-Schowalter"}},{"id":94,"attributes":{"id":94,"name":"Boehm
+        LLC"}},{"id":95,"attributes":{"id":95,"name":"Johnson-Dickinson"}},{"id":96,"attributes":{"id":96,"name":"Swaniawski-Cremin"}},{"id":97,"attributes":{"id":97,"name":"Rice,
+        Jerde and White"}},{"id":98,"attributes":{"id":98,"name":"Okuneva, Prohaska
+        and Rolfson"}},{"id":100,"attributes":{"id":100,"name":"Wisozk, Hoeger and
+        Bosco"}},{"id":99,"attributes":{"id":99,"name":"Fahey-Stiedemann"}},{"id":42,"attributes":{"id":42,"name":"Glover
+        Inc"}}]}'
+  recorded_at: Thu, 18 Jul 2024 01:48:02 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.10.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"8007ba8e38143e429bbcf993d1b3e1d2"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 6090a405-bdee-4297-92b4-a5cff98cf070
+      X-Runtime:
+      - '0.005144'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.00, sql.active_record;dur=0.39, instantiation.active_record;dur=0.16,
+        process_action.action_controller;dur=2.13
+      Content-Length:
+      - '6112'
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":1,"attributes":{"id":1,"name":"Schroeder-Jerde"}},{"id":2,"attributes":{"id":2,"name":"Klein,
+        Rempel and Jones"}},{"id":3,"attributes":{"id":3,"name":"Willms and Sons"}},{"id":4,"attributes":{"id":4,"name":"Cummings-Thiel"}},{"id":5,"attributes":{"id":5,"name":"Williamson
+        Group"}},{"id":6,"attributes":{"id":6,"name":"Williamson Group"}},{"id":7,"attributes":{"id":7,"name":"Bernhard-Johns"}},{"id":8,"attributes":{"id":8,"name":"Osinski,
+        Pollich and Koelpin"}},{"id":9,"attributes":{"id":9,"name":"Hand-Spencer"}},{"id":10,"attributes":{"id":10,"name":"Bechtelar,
+        Jones and Stokes"}},{"id":11,"attributes":{"id":11,"name":"Pollich and Sons"}},{"id":12,"attributes":{"id":12,"name":"Kozey
+        Group"}},{"id":13,"attributes":{"id":13,"name":"Tillman Group"}},{"id":14,"attributes":{"id":14,"name":"Dicki-Bednar"}},{"id":15,"attributes":{"id":15,"name":"Adams-Kovacek"}},{"id":16,"attributes":{"id":16,"name":"Bosco,
+        Howe and Davis"}},{"id":17,"attributes":{"id":17,"name":"Ullrich-Moen"}},{"id":18,"attributes":{"id":18,"name":"Koepp
+        LLC"}},{"id":19,"attributes":{"id":19,"name":"Brown Inc"}},{"id":20,"attributes":{"id":20,"name":"Schulist,
+        Wilkinson and Leannon"}},{"id":21,"attributes":{"id":21,"name":"Leffler, Rice
+        and Leuschke"}},{"id":22,"attributes":{"id":22,"name":"Thiel Inc"}},{"id":23,"attributes":{"id":23,"name":"Kilback
+        Inc"}},{"id":24,"attributes":{"id":24,"name":"Ferry and Sons"}},{"id":25,"attributes":{"id":25,"name":"Hickle-Hessel"}},{"id":26,"attributes":{"id":26,"name":"Balistreri,
+        Schaefer and Kshlerin"}},{"id":27,"attributes":{"id":27,"name":"Shields, Hirthe
+        and Smith"}},{"id":28,"attributes":{"id":28,"name":"Schiller, Barrows and
+        Parker"}},{"id":29,"attributes":{"id":29,"name":"Tromp Inc"}},{"id":30,"attributes":{"id":30,"name":"Ernser,
+        Borer and Marks"}},{"id":31,"attributes":{"id":31,"name":"Maggio LLC"}},{"id":32,"attributes":{"id":32,"name":"Rowe
+        and Sons"}},{"id":33,"attributes":{"id":33,"name":"Quitzon and Sons"}},{"id":34,"attributes":{"id":34,"name":"Rutherford,
+        Bogan and Leannon"}},{"id":35,"attributes":{"id":35,"name":"Schuster Group"}},{"id":36,"attributes":{"id":36,"name":"Bernhard,
+        Stanton and Funk"}},{"id":37,"attributes":{"id":37,"name":"Dibbert Group"}},{"id":38,"attributes":{"id":38,"name":"Johnston,
+        Gleason and O''Keefe"}},{"id":39,"attributes":{"id":39,"name":"Schuppe, Friesen
+        and Schmeler"}},{"id":40,"attributes":{"id":40,"name":"Wilderman Group"}},{"id":41,"attributes":{"id":41,"name":"Crona
+        LLC"}},{"id":43,"attributes":{"id":43,"name":"Marks, Shanahan and Bauch"}},{"id":44,"attributes":{"id":44,"name":"Gibson
+        Group"}},{"id":45,"attributes":{"id":45,"name":"Dickinson-Klein"}},{"id":46,"attributes":{"id":46,"name":"Huels,
+        Homenick and Smith"}},{"id":47,"attributes":{"id":47,"name":"Franecki-Ullrich"}},{"id":48,"attributes":{"id":48,"name":"Hand,
+        Boyer and Mitchell"}},{"id":49,"attributes":{"id":49,"name":"Marvin, Renner
+        and Bauch"}},{"id":50,"attributes":{"id":50,"name":"Nader-Hyatt"}},{"id":51,"attributes":{"id":51,"name":"Paucek
+        Inc"}},{"id":52,"attributes":{"id":52,"name":"Reynolds Inc"}},{"id":53,"attributes":{"id":53,"name":"Rath,
+        Gleason and Spencer"}},{"id":54,"attributes":{"id":54,"name":"Zemlak-Collins"}},{"id":55,"attributes":{"id":55,"name":"Koch,
+        Wolf and Jerde"}},{"id":56,"attributes":{"id":56,"name":"Sporer, Christiansen
+        and Connelly"}},{"id":57,"attributes":{"id":57,"name":"Parisian Group"}},{"id":58,"attributes":{"id":58,"name":"Rogahn
+        LLC"}},{"id":59,"attributes":{"id":59,"name":"Pollich, Romaguera and Bayer"}},{"id":60,"attributes":{"id":60,"name":"Smitham
+        LLC"}},{"id":61,"attributes":{"id":61,"name":"Auer, Crooks and Shanahan"}},{"id":62,"attributes":{"id":62,"name":"Kunze,
+        Kautzer and Little"}},{"id":63,"attributes":{"id":63,"name":"Lehner, Padberg
+        and O''Hara"}},{"id":64,"attributes":{"id":64,"name":"Koepp, Waelchi and Donnelly"}},{"id":65,"attributes":{"id":65,"name":"Hermann,
+        Weimann and Botsford"}},{"id":66,"attributes":{"id":66,"name":"Bechtelar LLC"}},{"id":67,"attributes":{"id":67,"name":"Torp
+        and Sons"}},{"id":68,"attributes":{"id":68,"name":"Heaney Group"}},{"id":69,"attributes":{"id":69,"name":"Watsica-Parisian"}},{"id":70,"attributes":{"id":70,"name":"Weimann-Schimmel"}},{"id":71,"attributes":{"id":71,"name":"Schulist
+        Group"}},{"id":72,"attributes":{"id":72,"name":"Greenfelder-Keebler"}},{"id":73,"attributes":{"id":73,"name":"Sipes
+        LLC"}},{"id":74,"attributes":{"id":74,"name":"Daugherty Group"}},{"id":75,"attributes":{"id":75,"name":"Eichmann-Turcotte"}},{"id":76,"attributes":{"id":76,"name":"Kirlin,
+        Jakubowski and Smitham"}},{"id":77,"attributes":{"id":77,"name":"Kutch, Blick
+        and O''Keefe"}},{"id":78,"attributes":{"id":78,"name":"Heathcote-Hettinger"}},{"id":79,"attributes":{"id":79,"name":"Pacocha-Mayer"}},{"id":80,"attributes":{"id":80,"name":"Jakubowski,
+        Predovic and Hudson"}},{"id":81,"attributes":{"id":81,"name":"Jewess Group"}},{"id":82,"attributes":{"id":82,"name":"Kulas
+        LLC"}},{"id":83,"attributes":{"id":83,"name":"Gulgowski, Torphy and Lynch"}},{"id":84,"attributes":{"id":84,"name":"Terry-Moore"}},{"id":85,"attributes":{"id":85,"name":"Sauer
+        and Sons"}},{"id":86,"attributes":{"id":86,"name":"Marvin Group"}},{"id":87,"attributes":{"id":87,"name":"Johnson-Wiza"}},{"id":88,"attributes":{"id":88,"name":"Kiehn
+        Group"}},{"id":89,"attributes":{"id":89,"name":"Kassulke, O''Hara and Quitzon"}},{"id":90,"attributes":{"id":90,"name":"Friesen,
+        Hackett and Runte"}},{"id":91,"attributes":{"id":91,"name":"Weissnat, Hermiston
+        and Beer"}},{"id":92,"attributes":{"id":92,"name":"Zemlak, Volkman and Haley"}},{"id":93,"attributes":{"id":93,"name":"Walter-Schowalter"}},{"id":94,"attributes":{"id":94,"name":"Boehm
+        LLC"}},{"id":95,"attributes":{"id":95,"name":"Johnson-Dickinson"}},{"id":96,"attributes":{"id":96,"name":"Swaniawski-Cremin"}},{"id":97,"attributes":{"id":97,"name":"Rice,
+        Jerde and White"}},{"id":98,"attributes":{"id":98,"name":"Okuneva, Prohaska
+        and Rolfson"}},{"id":100,"attributes":{"id":100,"name":"Wisozk, Hoeger and
+        Bosco"}},{"id":99,"attributes":{"id":99,"name":"Fahey-Stiedemann"}},{"id":42,"attributes":{"id":42,"name":"Glover
+        Inc"}}]}'
+  recorded_at: Thu, 18 Jul 2024 01:48:02 GMT
+recorded_with: VCR 6.2.0
